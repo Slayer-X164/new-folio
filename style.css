@@ -20,7 +20,7 @@ main {
   overflow: hidden;
   position: relative;
   z-index: 11;
-  background-color: #0000006e;
+  background-color: #2724246e;
   width: 100%;
   min-height: 100vh;
   /* opacity: 0.1; */
@@ -28,7 +28,7 @@ main {
 .blob1 {
   z-index: -1;
   right: 20%;
-  filter: blur(50px);
+  filter: blur(90px);
   width: 600px;
   position: absolute;
   animation: move-blob 15s infinite ease-in-out;
