@@ -1,6 +1,7 @@
 :root {
   --pri_col: #f5f6eb;
   --sec_col: #b29ff9;
+  --ter_col: #31313172;
 }
 * {
   padding: 0;
@@ -78,6 +79,7 @@ header {
 }
 
 .hero {
+  position: relative;
   padding: 0 10px;
   width: 100%;
   height: calc(100vh - 70px);
@@ -94,6 +96,8 @@ header {
   font-size: 24px;
 }
 .hero h1 {
+  /* line-height: 110px; */
+  position: relative;
   font-family: "Merriweather", serif;
   font-size: 5rem;
   letter-spacing: 0.2rem;
@@ -106,30 +110,19 @@ header {
   font-weight: 200;
 }
 
-/*@media (min-width: 600px){
-     .blob1{
-        width: 300px;
-     }
-     .hero p{
-        font-size: 18px;
-      }
-      .hero h1{
-        font-family: "Merriweather", serif;
-        font-size: 2rem;
-        letter-spacing: 0.2rem;
-      }
-      .hero h3 > span{
-        color: var(--sec_col);
-        font-family: "Merriweather", serif;
-        text-shadow: -4px 4px 0px rgba(0, 0, 0, 0.5);
-        font-size: 1rem;
-      }
-      .hero{
-        height: calc(70vh - 70px);
-        gap: 2rem;
 
-      }
-  }*/
+.front_span{
+  background-color: var(--ter_col);
+  border-radius: 8px;
+  padding: 2px 10px;
+  border: 2px solid #313131;
+}
+.cat_origami{
+  width: 100px;
+  top: -40%;
+  right :0;
+  position: absolute;
+}
 @media (max-width: 900px) {
   .hero p {
     font-size: 14px;
@@ -137,7 +130,7 @@ header {
   .hero h1 {
     font-family: "Merriweather", serif;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.7rem;
     letter-spacing: 0.2rem;
   }
   .hero {
@@ -145,13 +138,23 @@ header {
     height: calc(70vh - 70px);
     gap: 2rem;
   }
+  .hero h3{
+    width: 300px;
+  }
   .hero h3 > span {
     color: var(--sec_col);
     font-family: "Merriweather", serif;
     text-shadow: -4px 4px 0px rgba(0, 0, 0, 0.5);
     font-size: 14px;
+
   }
   .blob1 {
     width: 400px;
+  }
+  .cat_origami{
+    width: 50px;
+    top: -61.5%;
+    right :0;
+    position: absolute;
   }
 }
