@@ -106,8 +106,8 @@ header {
   letter-spacing: 0.2rem;
   color: var(--sec_col);
   font-family: "Merriweather", serif;
-  text-shadow: -4px 4px 0px rgba(0, 0, 0, 0.5);
-  font-weight: 200;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+  font-weight: 800;
 }
 
 
@@ -130,7 +130,7 @@ header {
   .hero h1 {
     font-family: "Merriweather", serif;
     font-weight: 600;
-    font-size: 1.7rem;
+    font-size: 1.92rem;
     letter-spacing: 0.2rem;
   }
   .hero {
@@ -144,7 +144,7 @@ header {
   .hero h3 > span {
     color: var(--sec_col);
     font-family: "Merriweather", serif;
-    text-shadow: -4px 4px 0px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
     font-size: 14px;
 
   }
@@ -153,7 +153,7 @@ header {
   }
   .cat_origami{
     width: 50px;
-    top: -61.5%;
+    top: -54.5%;
     right :0;
     position: absolute;
   }
