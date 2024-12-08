@@ -108,6 +108,7 @@ header {
   font-family: "Merriweather", serif;
   text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
   font-weight: 800;
+  font-style: italic;
 }
 
 
@@ -128,6 +129,7 @@ header {
     font-size: 14px;
   }
   .hero h1 {
+    line-height: 3rem;
     font-family: "Merriweather", serif;
     font-weight: 600;
     font-size: 1.92rem;
@@ -153,7 +155,7 @@ header {
   }
   .cat_origami{
     width: 50px;
-    top: -54.5%;
+    top: -38.5%;
     right :0;
     position: absolute;
   }
