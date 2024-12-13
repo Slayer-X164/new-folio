@@ -30,26 +30,29 @@ main {
   z-index: -1;
   right: 20%;
   /* opacity: 20px; */
-  filter: blur(30px);
+  filter:  blur(30px) drop-shadow(0 0 100px rgba(213, 93, 189, 0.5));
   width: 600px;
   position: absolute;
-  animation: move-blob 15s infinite ease-in-out;
+  animation: move-blob 25s infinite ease-in-out;
 }
 @keyframes move-blob {
   0% {
-    transform: translate(10%, 10%);
+    transform: translate(15%, 15%) rotate(0deg);
   }
-  25% {
-    transform: translate(80%, 20%);
+  20% {
+    transform: translate(60%, -25%) rotate(45deg);
   }
-  50% {
-    transform: translate(50%, 70%);
+  40% {
+    transform: translate(30%, 35%) rotate(90deg);
   }
-  75% {
-    transform: translate(20%, 30%);
+  60% {
+    transform: translate(-10%, 5%) rotate(120deg);
+  }
+  80% {
+    transform: translate(40%, -30%) rotate(180deg);
   }
   100% {
-    transform: translate(10%, 10%);
+    transform: translate(15%, 15%) rotate(0deg);
   }
 }
 
@@ -124,7 +127,25 @@ header {
   right :0;
   position: absolute;
 }
+.circle{
+  background-color: var(--pri_col);
+  /* border: 1px solid var(--pri_col); */
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11111;
+  filter: blur(20px);
+  /* box-shadow: 0px 0px 10px 1px var(--pri_col); */
+
+}
 @media (max-width: 900px) {
+  .circle{
+    display: none;
+
+  }
   .hero p {
     font-size: 14px;
   }
