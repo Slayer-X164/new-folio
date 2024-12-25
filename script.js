@@ -42,6 +42,14 @@ const mobileNavToggle = ()=>{
   })
 }
 
+const openLinkdein = ()=>{
+  const linkedin_logo = document.querySelector(".linkedin_logo")
+  linkedin_logo.addEventListener("click", () => {
+    window.open("https://www.linkedin.com/in/siddhesh-ghag-110359217/", "_blank");
+  });
+}
+
+openLinkdein()
 mobileNavToggle()
 preLoader()
 cursorAnimation();
