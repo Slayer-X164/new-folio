@@ -27,5 +27,21 @@ const preLoader = ()=>{
         main.classList.add('visible')
     })
 }
+
+const mobileNavToggle = ()=>{
+  const mobile_nav = document.querySelector(".mobile_nav")
+  const menu_close = document.querySelector(".close_menu")
+  const open_menu = document.querySelector(".menu")
+
+  open_menu.addEventListener("click",()=>{
+    mobile_nav.style.transform = "translateY(0)"
+  })
+
+  menu_close.addEventListener("click",()=>{
+    mobile_nav.style.transform = "translateY(-100%)"
+  })
+}
+
+mobileNavToggle()
 preLoader()
 cursorAnimation();
