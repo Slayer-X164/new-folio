@@ -237,7 +237,7 @@ main.visible{
 }
 @media (max-width: 900px) {
   .mobile_nav .proj{
-    filter: drop-shadow(0 0 30px  #f5f6ebd0);
+    filter: drop-shadow(0 0 30px  #f5f6eb76);
     color: var(--pri_col);
   }
   .circle{
