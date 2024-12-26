@@ -10,8 +10,8 @@ const cursorAnimation = () => {
 
     circle.animate(
       {
-        left: x - 14 + "px",
-        top: y - 16 + "px",
+        left: x - 7 + "px",
+        top: y - 7 + "px",
       },
       { duration: 1, fill: "forwards" }
     );
